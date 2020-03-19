@@ -2,7 +2,10 @@
 
 ### Big data latest technology assignments
 
+![thumbnail](https://www.analyticsinsight.net/wp-content/uploads/2019/11/Next-for-Big-Data.jpg)
+
 [![go version](https://img.shields.io/badge/go-1.14-00add8)](https://go.dev/)
+[![python version](https://img.shields.io/badge/python-3.7.7-306998)](https://www.python.org/)
 [![license](https://img.shields.io/badge/license-GPL-blue)](https://github.com/joshua-dev/bigdata/blob/master/LICENSE)
 
 ---
