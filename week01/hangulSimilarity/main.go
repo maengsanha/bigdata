@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"strings"
 
 	"github.com/joshua-dev/hangulsimilarity"
 )
@@ -20,8 +19,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	first = strings.TrimSpace(first)
-	second = strings.TrimSpace(second)
 	fmt.Fprintf(os.Stdout, "공통 음절 갯수에 의한 유사도: %f%%\n", hangulsimilarity.CompareBySyllables(first, second))
 	fmt.Fprintf(os.Stdout, "공통 어절 갯수에 의한 유사도: %f%%\n", hangulsimilarity.CompareBySegments(first, second))
 }

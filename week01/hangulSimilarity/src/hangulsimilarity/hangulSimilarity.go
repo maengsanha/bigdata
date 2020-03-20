@@ -1,12 +1,18 @@
 package hangulsimilarity
 
-import "strings"
+import (
+	"regexp"
+	"strings"
+)
 
 // CompareBySyllables returns similarity of given two strings
 // based on the common syllables.
 func CompareBySyllables(first, second string) float64 {
 	var similarity float64
 	var common int
+
+	first = strings.TrimSpace(first)
+	second = strings.TrimSpace(second)
 
 	syllableCount1, len1 := countInSyllables(first)
 	syllableCount2, len2 := countInSyllables(second)
@@ -28,11 +34,13 @@ func CompareBySyllables(first, second string) float64 {
 	return similarity
 }
 
+// countInSyllables returns a map containing syllable counts of a given sentence and number of syllables.
 func countInSyllables(sentence string) (map[string]int, int) {
 	var syllableMap = map[string]int{}
 	var cnt int
 
-	segments := strings.Split(sentence, " ")
+	cleansed := cleanse(sentence)
+	segments := strings.Split(cleansed, " ")
 
 	for _, segment := range segments {
 		syllables := strings.Split(segment, "")
@@ -49,6 +57,7 @@ func countInSyllables(sentence string) (map[string]int, int) {
 	return syllableMap, cnt
 }
 
+// min returns minimum value between given two integers.
 func min(first, second int) int {
 	if first < second {
 		return first
@@ -56,11 +65,21 @@ func min(first, second int) int {
 	return second
 }
 
+// cleanse returns a string with punctuation removed.
+func cleanse(s string) string {
+	re := regexp.MustCompile(`[.,!?~ㆍ:/\"\']`)
+	cleansed := re.ReplaceAllString(s, "")
+	return cleansed
+}
+
 // CompareBySegments returns similarity of given two strings
 // based on the common segments.
 func CompareBySegments(first, second string) float64 {
 	var similarity float64
 	var common int
+
+	first = strings.TrimSpace(first)
+	second = strings.TrimSpace(second)
 
 	segmentCount1, len1 := countInSegments(first)
 	segmentCount2, len2 := countInSegments(second)
@@ -82,11 +101,13 @@ func CompareBySegments(first, second string) float64 {
 	return similarity
 }
 
+// countInSegments returns a map containing segment counts of a given sentence and number of segments.
 func countInSegments(sentence string) (map[string]int, int) {
 	var segmentMap = map[string]int{}
 	var cnt int
 
-	segments := strings.Split(sentence, " ")
+	cleansed := cleanse(sentence)
+	segments := strings.Split(cleansed, " ")
 
 	for _, segment := range segments {
 		cnt++
