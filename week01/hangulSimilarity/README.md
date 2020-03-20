@@ -8,13 +8,13 @@
 
 <참고 1> 위 과제 수행에 사용하는 언어는 C/C++, 자바, 파이썬 등 각자 사용하기 편한 언어를 사용하면 됩니다.
 
-<참고 2> 과제제출 내용 : 소스코드, 보고서(PDF 파일: 구현 방법 및 실행화면 스샷 등의 설명 포함) --> zip 파일 1개로 업로드
+<참고 2> 과제제출 내용 : 소스코드, 보고서(PDF 파일: 구현 방법 및 실행화면 스샷 등의 설명 포함) -> zip 파일 1개로 업로드
 
 ---
 
 ## 실행 결과
 
-![result](result.png)
+![result](https://user-images.githubusercontent.com/29545214/77175469-0c62d180-6b06-11ea-89a7-fa782d525891.png)
 
 ---
 
@@ -54,11 +54,11 @@ make test
 
     ---
 
-    * 1을 구현한 함수 countInSyllables
+    * 1을 구현한 함수 countBySyllables
 
     ```go
-    // countInSyllables returns a map containing syllable counts of a given sentence and number of syllables.
-    func countInSyllables(sentence string) (map[string]int, int)
+    // countBySyllables returns a map containing syllable counts of a given sentence and number of syllables.
+    func countBySyllables(sentence string) (map[string]int, int)
     ```
 
     이 때, 문장 부호를 제거하기 위해 정규식과 regexp 패키지를 이용하여 문장 부호를 제거하는 cleanse 함수를 만들었다.
@@ -88,11 +88,11 @@ make test
 
     ---
 
-    * 1.을 구현한 함수 countInSegments
+    * 1.을 구현한 함수 countBySegments
     
     ```go
-    // countInSegments returns a map containing segment counts of a given sentence and number of segments.
-    func countInSegments(sentence string) (map[string]int, int)
+    // countBySegments returns a map containing segment counts of a given sentence and number of segments.
+    func countBySegments(sentence string) (map[string]int, int)
     ```
 
     공통 음절 갯수로 측정할 때와 같이 여기에서도 문장 부호를 제거하기 위해 cleanse 함수로 문장 부호를 제거한다.

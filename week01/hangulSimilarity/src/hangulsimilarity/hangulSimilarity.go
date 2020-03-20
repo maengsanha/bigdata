@@ -14,8 +14,8 @@ func CompareBySyllables(first, second string) float64 {
 	first = strings.TrimSpace(first)
 	second = strings.TrimSpace(second)
 
-	syllableCount1, len1 := countInSyllables(first)
-	syllableCount2, len2 := countInSyllables(second)
+	syllableCount1, len1 := countBySyllables(first)
+	syllableCount2, len2 := countBySyllables(second)
 
 	if len1 < len2 {
 		return CompareBySyllables(second, first)
@@ -34,9 +34,9 @@ func CompareBySyllables(first, second string) float64 {
 	return similarity
 }
 
-// countInSyllables returns a map containing syllable counts of a given sentence and number of syllables.
-func countInSyllables(sentence string) (map[string]int, int) {
-	var syllableMap = map[string]int{}
+// countBySyllables returns a map containing syllable counts of a given sentence and number of syllables.
+func countBySyllables(sentence string) (map[string]int, int) {
+	syllableMap := make(map[string]int)
 	var cnt int
 
 	cleansed := cleanse(sentence)
@@ -67,7 +67,8 @@ func min(first, second int) int {
 
 // cleanse returns a string with punctuation removed.
 func cleanse(s string) string {
-	re := regexp.MustCompile(`[.,!?~ㆍ:/\"\']`)
+	const hangulRegex string = `[.,!?~ㆍ:/\"\']`
+	re := regexp.MustCompile(hangulRegex)
 	cleansed := re.ReplaceAllString(s, "")
 	return cleansed
 }
@@ -81,8 +82,8 @@ func CompareBySegments(first, second string) float64 {
 	first = strings.TrimSpace(first)
 	second = strings.TrimSpace(second)
 
-	segmentCount1, len1 := countInSegments(first)
-	segmentCount2, len2 := countInSegments(second)
+	segmentCount1, len1 := countBySegments(first)
+	segmentCount2, len2 := countBySegments(second)
 
 	if len1 < len2 {
 		return CompareBySegments(second, first)
@@ -101,9 +102,9 @@ func CompareBySegments(first, second string) float64 {
 	return similarity
 }
 
-// countInSegments returns a map containing segment counts of a given sentence and number of segments.
-func countInSegments(sentence string) (map[string]int, int) {
-	var segmentMap = map[string]int{}
+// countBySegments returns a map containing segment counts of a given sentence and number of segments.
+func countBySegments(sentence string) (map[string]int, int) {
+	segmentMap := make(map[string]int)
 	var cnt int
 
 	cleansed := cleanse(sentence)
