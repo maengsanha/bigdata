@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/joshua-dev/hangulsimilarity"
+	"github.com/joshua-dev/bigdata/week01/hangulSimilarity/src/hangulsimilarity"
 )
 
 func main() {

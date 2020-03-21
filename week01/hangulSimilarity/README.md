@@ -14,14 +14,14 @@
 
 ## 실행 결과
 
-![result](https://user-images.githubusercontent.com/29545214/77175469-0c62d180-6b06-11ea-89a7-fa782d525891.png)
+![result](https://user-images.githubusercontent.com/29545214/77216935-c89db580-6b61-11ea-807d-7d9d6bca1a8a.png)
 
 ---
 
 ### Installation
 
 ```shell
-go get github.com/joshua-dev/hangulsimilarity
+go get github.com/joshua-dev/bigdata/week01/hangulSimilarity/src/hangulsimilarity
 ```
 
 ### Run

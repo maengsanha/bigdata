@@ -5,6 +5,7 @@ GOTEST = $(GOCMD) test
 GOGET = $(GOCMD) get
 BINARY_NAME = similarity
 BINARY_UNIX = $(BINARY_NAME)_unix
+RM = rm -f
 
 all: run
 
@@ -16,12 +17,12 @@ test:
 
 clean:
 	$(GOCLEAN)
-	rm -f $(BINARY_NAME)
-	rm -f $(BINARY_UNIX)
+	$(RM) $(BINARY_NAME)
+	$(RM) $(BINARY_UNIX)
 
 run:
 	@$(GOBUILD) -o $(BINARY_NAME) -v ./main.go
 	@./$(BINARY_NAME)
 	@$(GOCLEAN)
-	@rm -f $(BINARY_NAME)
-	@rm -f $(BINARY_UNIX)
+	@$(RM) $(BINARY_NAME)
+	@$(RM) $(BINARY_UNIX)
