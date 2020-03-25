@@ -8,20 +8,22 @@
 
   - 추가: 작성한 프로그램이 문제없이 작동하는 가장 큰 파일의 크기 및 실행시간을 출력
 
----
+<br><br>
 
-* Run (Unix)
+## Run (Unix)
 
 ```shell
 make
 ```
 
-* Run (Windows)
+<br>
+
+## Run (Windows)
 ```shell
 python src/wordFrequency.py
 ```
 
----
+<br><Br>
 
 ## 실행 결과
 
