@@ -26,22 +26,36 @@
 
 ## 실행 결과
 
-![result]()
+<img src="https://user-images.githubusercontent.com/29545214/77829994-d0181c80-7168-11ea-90e6-081f6996f062.png" width="857" height="866">
 
 <br><br>
 
 ## Installation
 
 ```shell
-go get github.com/joshua-dev/bigdata/week02/hangulSimilarity/src/hangulsimilarity
+go get github.com/joshua-dev/bigdata/week02/ngram/src/ngram
 ```
 <br>
 
 ## Run
 
-```shell
-make
-```
+- Bigram
+  ```shell
+  make
+  ./ngram 2
+  ```
+  <br>
+- Trigram
+  ```shell
+  make
+  ./ngram 3
+  ```
+  <br>
+- Bigram + Trigram
+  ```shell
+  make
+  ./ngram 5
+  ```
 
 <br>
 
@@ -61,6 +75,7 @@ make test
 ## 구현 방법
 
 1. 음절 ngram 방식
-   
+
+    - 다음과
 
 2. WPM model
