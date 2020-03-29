@@ -94,17 +94,21 @@ make test
 
     - **1** 을 수행하는 코드
     <br>
+
       ```go
       type ngram []string
       ```
+
     <br>
     
     - **2** 를 구현하는 함수 New
     <br>
+
       ```go
       // New returns a new n-gram with the given n and string.
       func New(n int, s string) ngram
       ```
+      
       <br>
       이때, 문장 부호와 공백을 제거하는 함수 cleanse를 호출한다.
       <br>
@@ -113,6 +117,7 @@ make test
         // cleanse returns a string with punctuation removed.
         func cleanse(s string) string
         ```
+    
     <br>
 
     - **3** 을 구현하는 함수 count
@@ -122,6 +127,7 @@ make test
       // count counts the frequency of n-grams.
       func count(ngrams ngram) (map[string]int, int)
       ```
+    
     <br>
     
     - **4** 를 구현하는 함수 Compare
@@ -131,6 +137,7 @@ make test
       // Compare compares two hangul string with ngram.
       func Compare(first, second string, n int) float64
       ```
+    
     <br>
     
     - **5** 를 계산하는 코드 (Compare 함수에 포함)
