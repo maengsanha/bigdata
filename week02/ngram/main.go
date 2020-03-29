@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	ngram "github.com/joshua-dev/bigdata/week02/ngram/src/ngram"
+	"github.com/joshua-dev/bigdata/week02/ngram/src/ngram"
 )
 
 func main() {
