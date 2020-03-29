@@ -1,3 +1,4 @@
+// Package ngram implements N-gram model.
 package ngram
 
 import (

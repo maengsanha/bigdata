@@ -8,17 +8,18 @@ import (
 	"strings"
 )
 
-type ngram []string
+// Ngram is n-gram type.
+type Ngram []string
 
 // New returns a new n-gram with the given n and string.
-func New(n int, s string) ngram {
+func New(n int, s string) Ngram {
 	splited := strings.Split(strings.TrimSpace(s), " ")
 	var cleansed string
 	for _, str := range splited {
 		cleansed += cleanse(str)
 	}
 
-	var result ngram
+	var result Ngram
 	for i := 0; i <= len(cleansed)-n; i++ {
 		result = append(result, cleansed[i:i+n])
 	}
@@ -32,18 +33,18 @@ func cleanse(s string) string {
 	return re.ReplaceAllString(s, "")
 }
 
-// count counts the frequency of n-grams.
-func count(ngrams ngram) (map[string]int, int) {
+// count counts the frequency of tokens.
+func count(tokens Ngram) (map[string]int, int) {
 	frequency := make(map[string]int)
 
-	for _, gram := range ngrams {
-		if _, exists := frequency[gram]; exists {
-			frequency[gram]++
+	for _, token := range tokens {
+		if _, exists := frequency[token]; exists {
+			frequency[token]++
 		} else {
-			frequency[gram] = 1
+			frequency[token] = 1
 		}
 	}
-	return frequency, len(ngrams)
+	return frequency, len(tokens)
 }
 
 // Compare compares two hangul string with ngram.
@@ -61,8 +62,8 @@ func Compare(first, second string, n int) float64 {
 
 	var common float64
 
-	for gram, cnt1 := range firstCount {
-		if cnt2, exists := secondCount[gram]; exists {
+	for token, cnt1 := range firstCount {
+		if cnt2, exists := secondCount[token]; exists {
 			common += math.Min(float64(cnt1), float64(cnt2))
 		}
 	}
