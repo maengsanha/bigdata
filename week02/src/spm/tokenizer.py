@@ -1,4 +1,5 @@
-# -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#
 # tokenizer.py
 #
 # tokenize two sentences using trained model obtained by train.py and
