@@ -1,19 +1,20 @@
 # -*- coding: utf-8 -*-
 #
-# compare.py
+# similarity.py
 #
 # computes similarities between KCC sentences and a given Hangul sentence.
 
 
-import sentencepiece as spm
-
+import re
 from collections import Counter
 
+import sentencepiece as spm
 
-def compute(inputSentence: str) -> dict:
+
+def get(inputSentence: str) -> dict:
 
   '''
-  compute computes similarites of sentences in KCC sentences to a given Hangul sentence.
+  get returns similarites of sentences in KCC sentences to a given Hangul sentence.
 
   >>> @param
     inputSentence: a Hangul sentence
@@ -23,20 +24,26 @@ def compute(inputSentence: str) -> dict:
 
   '''
 
+  hangulRegex = "[,!?~ㆍ:/\"\']"
+
   similarities = dict()
 
   processor = spm.SentencePieceProcessor()
-  processor.load('./src/spm/BPE.model')
+  processor.load('./BPE.model')
 
   tokens_input = processor.EncodeAsPieces(inputSentence)
 
-  with open('./src/spm/KCC940_Korean_sentences_UTF8.txt') as sentences:
+  with open('./src/spm/KCC940_Korean_sentences_UTF8.txt') as f:
 
-    for sentence in sentences.readlines():
-      sentence = sentence.strip()
-      tokens = processor.EncodeAsPieces(sentence)
-      similarity = compare(tokens_input, tokens)
-      similarities[sentence] = similarity
+    for line in f.readlines():
+      sentences = line.split('.')
+      for sentence in sentences:
+        sentence = re.sub(hangulRegex, '', sentence.strip())
+        if sentence == '':
+          continue
+        tokens = processor.EncodeAsPieces(sentence)
+        similarity = compare(tokens_input, tokens)
+        similarities[sentence] = similarity
     
   return similarities
 

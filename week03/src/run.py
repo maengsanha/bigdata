@@ -11,7 +11,7 @@ import sys
 import time
 
 from spm.train import *
-from spm.compare import *
+import spm.similarity as similarity
 
 
 def main(argv):
@@ -28,16 +28,33 @@ def main(argv):
 
   vocab_size = int(input('vocabulary size >> '))
 
+  trainStartTime = time.time()
+
   train(vocab_size)
 
-  inputSentence = input('')
+  trainEndTime = time.time()
 
-  similarities = compute(inputSentence)
+  trainElapsedTime = trainEndTime - trainStartTime
+
+  inputSentence = input('Enter a Hangul sentence >> ')
+
+  computeStartTime = time.time()
+
+  similarities = similarity.get(inputSentence)
+
+  computeEndTime = time.time()
 
   topSimilars = sorted(similarities.keys(), key=lambda x: similarities[x], reverse=True)[:option]
 
+  computeElapsedTime = computeEndTime - computeStartTime
+
+  elapsedTime = trainElapsedTime + computeElapsedTime
+
   for index, sentence in enumerate(topSimilars):
-    print("%d: %s" % (index, sentence))
+      print("%d. %s:\t%f%%" % (index+1, sentence, similarities[sentence]))
+
+  print("Elapsed time: %fs" % elapsedTime)
+
 
 if __name__ == '__main__':
   main(sys.argv)
