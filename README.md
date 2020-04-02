@@ -1,6 +1,6 @@
-# BIG DATA LATEST TECHNOLOGY
+# PRACTICES IN BIG DATA
 
-### Big data latest technology assignments
+### Practices in Big Data assignments
 
 <img src="https://www.analyticsinsight.net/wp-content/uploads/2019/11/Next-for-Big-Data.jpg">
 
