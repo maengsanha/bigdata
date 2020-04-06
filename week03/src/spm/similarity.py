@@ -2,8 +2,7 @@
 #
 # similarity.py
 #
-# computes similarities between KCC sentences and a given Hangul sentence.
-
+# Computes similarities between KCC sentences and a given Hangul sentence.
 
 import re
 from collections import Counter
@@ -16,11 +15,8 @@ def get(inputSentence: str) -> dict:
   '''
   get returns similarites of sentences in KCC sentences to a given Hangul sentence.
 
-  >>> @param
-    inputSentence: a Hangul sentence
-
-  >>> @return
-    similarites: a map containing similarities between sentence of KCC sentences and input sentence
+  @param inputSentence a Hangul sentence
+  @return a map containing similarities between sentence of KCC sentences and input sentence
 
   '''
 
@@ -53,14 +49,9 @@ def compare(tokens_first: list, tokens_second: list) -> float:
   '''
   compare compares two token lists using BPE model.
 
-  >>> @param
-
-    tokens_first: a Hangul sentence tokens.
-    tokens_second: a Hangul sentence tokens.
-  
-  >>> @return
-    
-    similarity between two sentence tokens using BPE model.
+  @param tokens_first a Hangul sentence tokens.
+  @param tokens_second a Hangul sentence tokens.
+  @return similarity between two sentence tokens using BPE model.
   
   '''
 

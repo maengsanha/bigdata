@@ -27,7 +27,7 @@
 * 제출하는 모든 실습 및 과제의 소스 코드는 아래 GitHub 경로에 있습니다.
   <br>
 
-  ```https://github.com/joshua-dev/bigdata```
+  `https://github.com/joshua-dev/bigdata`
 
 <br>
 

@@ -15,6 +15,13 @@ import spm.similarity as similarity
 
 
 def main(argv):
+
+  '''
+  main runs training model, sorting and printing results and timing.
+
+  @param argv command-line parameter
+  
+  '''
   
   try:
     if len(argv) != 2:
@@ -38,17 +45,17 @@ def main(argv):
 
   inputSentence = input('Enter a Hangul sentence >> ')
 
-  computeStartTime = time.time()
+  compareStartTime = time.time()
 
   similarities = similarity.get(inputSentence)
 
-  computeEndTime = time.time()
+  compareEndTime = time.time()
 
   topSimilars = sorted(similarities.keys(), key=lambda x: similarities[x], reverse=True)[:option]
 
-  computeElapsedTime = computeEndTime - computeStartTime
+  compareElapsedTime = compareEndTime - compareStartTime
 
-  elapsedTime = trainElapsedTime + computeElapsedTime
+  elapsedTime = trainElapsedTime + compareElapsedTime
 
   for index, sentence in enumerate(topSimilars):
       print("%d. %s:\t%f%%" % (index+1, sentence, similarities[sentence]))

@@ -44,7 +44,7 @@ make test
 
 * 제출하는 모든 과제 및 퀴즈의 소스 코드는 아래 GitHub 경로에 있습니다.
 
-  ```https://github.com/joshua-dev/bigdata```
+  `https://github.com/joshua-dev/bigdata`
 
 <br><br>
 
