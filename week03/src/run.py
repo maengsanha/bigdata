@@ -2,10 +2,9 @@
 #
 # run.py
 #
-# prints the top n sentences with the highest similarity to a given Hangul sentence.
+# Prints the top n sentences with the highest similarity to a given Hangul sentence.
 #
 # Input: a Hangul sentence
-
 
 import sys
 import time
