@@ -34,7 +34,7 @@
 
 ## 실행 결과
 
-- 모델 훈련
+- 모델 학습
 
   <img width="540" alt="train" src="https://user-images.githubusercontent.com/29545214/79068456-eba32b80-7d01-11ea-9b0c-5dad4b75b176.png">
 
@@ -341,7 +341,7 @@ for scanner.Scan() {
 
   <img alt="spm" width="540" src="https://user-images.githubusercontent.com/29545214/78385200-74410e00-7616-11ea-9d0f-eec1e816ccef.png">
 
-- word2vec 모델로 학습시켜 유사도를 측정한 경우 (2878만개 문장으로 학습)
+- word2vec 모델로 학습시켜 유사도를 측정한 경우 (130만개 문장으로 학습)
 
   <img width="540" alt="result" src="https://user-images.githubusercontent.com/29545214/79068486-36bd3e80-7d02-11ea-91e5-6d371edc83b7.png">
 
@@ -374,4 +374,5 @@ word2vec 모델은 단어를 벡터로 변환하는 과정에서 단어가 가�
 또한 Hierarchical Softmax와 Negative Sampling을 통해 최적화함으로써 처리 시간도 크게 줄어들었다.
 <br/>
 
-멀티 쓰레딩을 통한 시간 단축을 고려하더라도 SPM 모델이 50000개의 문장으로 학습하여 유사도를 측정하는 시간과 word2vec이 2878만개 문장으로 학습하여 유사도를 측정하는 시간의 차이가 1초가 채 되지 않는다는 점에서 word2vec 모델이 성능적으로 더 우수하다고 볼 수 있다.
+멀티 쓰레딩을 통한 시간 단축을 고려하더라도 SPM 모델이 50000개의 문장으로 학습하여 유사도를 측정하는 시간과 word2vec이 130만개 문장으로 학습하여 유사도를 측정하는 시간의 차이가 1초가 채 되지 않는다는 점에서 word2vec 모델이 성능적으로 더 우수하다고 볼 수 있다.
+
