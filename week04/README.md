@@ -231,7 +231,7 @@ for scanner.Scan() {
     ```go
     // Cos computes the cosine similarity of the given vectors.
     func Cos(v, u Vector) float64 {
-    ))
+    	return v.dot(u) / (v.norm() * u.norm())
     }
     ```
 
