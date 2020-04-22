@@ -4,15 +4,17 @@
 
 <img src="https://www.analyticsinsight.net/wp-content/uploads/2019/11/Next-for-Big-Data.jpg">
 
-<br/>
+<br />
 
 [![GitHub license](https://img.shields.io/badge/license-GPL-blue)](https://github.com/joshua-dev/bigdata/blob/master/LICENSE)
 [![go version](https://img.shields.io/badge/go-1.14-00add8)](https://go.dev/)
 [![python version](https://img.shields.io/badge/python-3.7.7-4B8BBE)](https://www.python.org/)
 
-<br/>
+<br />​
 
 ## :white_check_mark: TODO
+
+### Part 1: NLP
 
 - [x] 실습 과제 1: 어절빈도 조사
   <br/><br/>
@@ -29,15 +31,8 @@
   
 - [x] 과제 4: 문장 유사도 계산을 워드 임베딩 기법 등 다양한 방법으로 구현
 
-  <br/>
 
-  <br/>
+<hr />
 
-- [x] 과제 5: 본인이 질의응답한 부분을 스샷으로 제출
-
-  <br/>
-
-  <br/>
-
-- [x] 과제 6: 질의응답 내용 전체에 대하여 텍스트 파일로 정리
+### Part 2: MapReduce
 
