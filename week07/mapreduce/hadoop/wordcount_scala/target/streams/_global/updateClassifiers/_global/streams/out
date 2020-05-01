@@ -1,0 +1,4 @@
+[debug] "not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/Users/joshua/KMU/2020-1/bigdata/bigdata/week07/mapreduce/hadoop/wordcount_scala/"), "wordcount_scala")...
+[debug] Done updating ProjectRef(uri("file:/Users/joshua/KMU/2020-1/bigdata/bigdata/week07/mapreduce/hadoop/wordcount_scala/"), "wordcount_scala")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

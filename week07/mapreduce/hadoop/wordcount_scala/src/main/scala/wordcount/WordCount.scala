@@ -1,0 +1,5 @@
+package wordcount
+
+class WordCount {
+
+}
