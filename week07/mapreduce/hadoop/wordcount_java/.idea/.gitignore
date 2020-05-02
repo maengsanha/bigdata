@@ -1,6 +1,3 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-
-# asset
-../src/test/resources/the_little_prince.txt
