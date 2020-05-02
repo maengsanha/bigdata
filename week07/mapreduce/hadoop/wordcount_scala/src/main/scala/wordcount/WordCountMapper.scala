@@ -7,11 +7,15 @@ import org.apache.hadoop.mapreduce.Mapper
 
 class WordCountMapper extends Mapper[Object, Text, Text, IntWritable] {
 
-  private var word = new Text()
-  private val one = new IntWritable(1)
+  val word = new Text()
+  val one = new IntWritable(1)
 
   override def map(key: Object, value: Text, context: Mapper[Object, Text, Text, IntWritable]#Context): Unit = {
-    // TODO
+    val tokenizer = new StringTokenizer(value.toString)
+    while (tokenizer.hasMoreTokens) {
+      word.set(tokenizer.nextToken().replaceAll("\\W", ""))
+      context.write(word, one)
+    }
   } // end method map.
 
 } // end class WordCountMapper.
