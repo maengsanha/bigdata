@@ -3,4 +3,4 @@
 /workspace.xml
 
 # asset
-src/test/resources/the_little_prince.txt
+../src/test/resources/the_little_prince.txt
