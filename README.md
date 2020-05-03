@@ -36,7 +36,7 @@
 
 ### Part 2: MapReduce
 
-- [ ] 실습 1: Hadoop 구현
+- [x] 실습 1: Hadoop 구현
 
   - [x] Java
-  - [ ] Scala
+  - [x] Scala
