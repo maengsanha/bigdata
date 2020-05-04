@@ -9,7 +9,7 @@ object WordCountTest {
     val args = Array("src/test/resources/the_little_prince.txt")
 
     val conf = new Configuration()
-    conf.setInt("mapreduce.job.reduces", 3)
+    conf.setInt("mapreduce.job.reduces", 5)
 
     ToolRunner.run(conf, new WordCount, args)
   } // end method main.

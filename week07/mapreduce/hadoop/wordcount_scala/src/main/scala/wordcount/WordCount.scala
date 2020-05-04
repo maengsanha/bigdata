@@ -6,11 +6,15 @@ import org.apache.hadoop.io.{IntWritable, Text}
 import org.apache.hadoop.mapreduce.Job
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat
-import org.apache.hadoop.util.Tool
+import org.apache.hadoop.util.{Tool, ToolRunner}
 
 class WordCount extends Configured with Tool {
 
-  override def run(args: Array[String]): Unit = {
+  def main(args: Array[String]): Unit = {
+    ToolRunner.run(new WordCount, args)
+  }
+
+  override def run(args: Array[String]): Int = {
     val job = Job.getInstance(getConf)
     job.setJarByClass(this.getClass)
 
@@ -21,10 +25,12 @@ class WordCount extends Configured with Tool {
     job.setMapOutputKeyClass(classOf[Text])
     job.setMapOutputValueClass(classOf[IntWritable])
 
-    FileInputFormat.addInputPath(job, new Path(args[0]))
-    FileOutputFormat.setOutputPath(job, new Path(args[0] + ".out"))
+    FileInputFormat.addInputPath(job, new Path(args(0)))
+    FileOutputFormat.setOutputPath(job, new Path(args(0) + ".out"))
 
     job.waitForCompletion(true)
+
+    0
   } // end method run.
 
 } // end class WordCount

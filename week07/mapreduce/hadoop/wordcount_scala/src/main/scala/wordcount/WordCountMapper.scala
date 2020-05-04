@@ -9,7 +9,7 @@ class WordCountMapper extends Mapper[Object, Text, Text, IntWritable] {
 
   override def map(key: Object, value: Text, context: Mapper[Object, Text, Text, IntWritable]#Context): Unit = {
     value.toString.split(" ").foreach(token => {
-      word.set(token)
+      word.set(token.replaceAll("\\W", ""))
       context.write(word, one)
     })
   } // end method map.
