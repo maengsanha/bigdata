@@ -7,10 +7,6 @@
 <br />
 
 [![GitHub license](https://img.shields.io/badge/license-GPL-blue)](https://github.com/joshua-dev/bigdata/blob/master/LICENSE)
-[![go version](https://img.shields.io/badge/go-1.14-00add8)](https://go.dev/)
-[![python version](https://img.shields.io/badge/python-3.7.7-4B8BBE)](https://www.python.org/)
-[![java version](https://img.shields.io/badge/java-11.0.7-007396)](https://openjdk.java.net/)
-[![scala version](https://img.shields.io/badge/scala-2.13.2-DC322F)](https://www.scala-lang.org/)
 
 <br />​
 
@@ -36,7 +32,18 @@
 
 ### Part 2: MapReduce
 
-- [x] 실습 1: Hadoop 구현
+- [x] 실습 1: Word Count example on MapReduce
 
-  - [x] Java
-  - [x] Scala
+  <br />
+
+  <br />
+
+- [x] 실습2: Triangle Listing example on MapReduce
+
+  <br />
+
+  <br />
+
+
+<hr />
+
