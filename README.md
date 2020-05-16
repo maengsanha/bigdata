@@ -33,17 +33,9 @@
 ### Part 2: MapReduce
 
 - [x] 실습 1: Word Count example on MapReduce
-
-  <br />
-
-  <br />
+  <br /><br />
 
 - [x] 실습2: Triangle Listing example on MapReduce
-
-  <br />
-
-  <br />
-
+  <br /><br />
 
 <hr />
-
