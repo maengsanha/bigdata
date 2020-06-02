@@ -1,6 +1,6 @@
-# PRACTICES IN BIG DATA
+# HOT TOPICS IN BIG DATA
 
-### Practices in Big Data assignments
+### Hot Topics in Big Data assignments and more
 
 <img src="https://www.analyticsinsight.net/wp-content/uploads/2019/11/Next-for-Big-Data.jpg">
 
@@ -30,7 +30,7 @@
 
 <hr />
 
-### Part 2: MapReduce
+### Part 2:Distributed Computing
 
 - [x] 실습 1: Word Count example on MapReduce
   <br /><br />
@@ -43,4 +43,6 @@
   - [ ] Task 4: 각 노드 u마다 군집계수 cc(u) 구하기 (Spark)
 
 <hr />
+
+### Part 3: Big Data Storage
 
