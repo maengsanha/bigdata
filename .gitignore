@@ -15,3 +15,6 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# assets
+final_project/task1/src/test/resources/soc-LiveJournal1.txt
