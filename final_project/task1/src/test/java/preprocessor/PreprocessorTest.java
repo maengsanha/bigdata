@@ -6,7 +6,7 @@ import preprocess.Preprocessor;
 public class PreprocessorTest {
 
   public static void main(String[] not_used) throws Exception {
-    String[] args = {"src/test/resources/soc-LiveJournal1.txt", "src/test/resources/soc-LiveJournal1.txt.out"};
+    String[] args = {"/home/joshua/Downloads/soc-LiveJournal1.txt", "/home/joshua/Downloads/task1.out"};
 
     ToolRunner.run(new Preprocessor(), args);
   } // end method main.
