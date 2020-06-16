@@ -2,27 +2,27 @@
 
 ### Hot Topics in Big Data assignments and more
 
-<br />
+<br>
 
 [![GitHub license](https://img.shields.io/badge/license-GPL-blue)](https://github.com/joshua-dev/bigdata/blob/master/LICENSE)
 
-<br />​
+<br>​
 
 ## :white_check_mark: TODO
 
 ### Part 1: NLP
 
 - [x] 실습 과제 1: 어절빈도 조사
-  <br/><br/>
+  <br><br>
   
 - [x] 과제 1: 한글 문장의 유사도 계산 (1)
-  <br/><br/>
+  <br><br>
   
 - [x] 과제 2: 한글 문장의 유사도 계산 (2)
-  <br/><br/>
+  <br><br>
   
 - [x] 과제 3: 대규모 말뭉치(KCC 원시말뭉치)에서 가장 유사한 문장 상위 n개 추출
-  <br/><br/>
+  <br><br>
   
 - [x] 과제 4: 문장 유사도 계산을 워드 임베딩 기법 등 다양한 방법으로 구현
 
@@ -31,9 +31,9 @@
 ### Part 2:Distributed Computing
 
 - [x] 실습 1: Word Count example on MapReduce
-  <br /><br />
+  <br><br>
 - [x] 실습2: Triangle Listing example on MapReduce
-  <br /><br />
+  <br><br>
 - [ ] Final Project: Graph Mining on MapReduce and Spark
   - [x] Task 1: 그래프의 중복 edge 및 self-loop 제거 (MapReduce)
   - [x] Task 2: 각 노드 u의 degree d(u) 구하기 (MapReduce)
@@ -42,5 +42,13 @@
 
 <hr />
 
-### Part 3: Big Data Storage
+### Part 3: Container
+
+- [ ] Final Project: Docker, MongoDB, AWS DocumentDB를 활용한 자유 프로젝트
+  - [ ] Task1: AWS DocumentDB를 이용한 MongoDB 환경 구축
+  - [ ] Task2: AWS Cloud9 환경에서 Docker를 활용하여 Task1에서 만든 DocumentDB에 접속
+  - [ ] Task3: MongoDB 실습 환경 시나리오 생성
+  - [ ] Task4: Docker를 활용한 MongoDB 사용과 DocumentDB를 활용한 실습 각각의 장단점 서술
+  - [ ] Task5: DocumentDB 클러스터 삭제
+  - [ ] Task6: 클라우드 서비스 크레딧 차감량 계산
 
