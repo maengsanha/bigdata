@@ -37,8 +37,8 @@
 - [ ] Final Project: Graph Mining on MapReduce and Spark
   - [x] Task 1: 그래프의 중복 edge 및 self-loop 제거 (MapReduce)
   - [x] Task 2: 각 노드 u의 degree d(u) 구하기 (MapReduce)
-  - [ ] Task 3: 각 노드 u마다 u를 포함하는 삼각형의 갯수 t(u) 구하기 (Spark)
-  - [ ] Task 4: 각 노드 u마다 군집계수 cc(u) 구하기 (Spark)
+  - [x] Task 3: 각 노드 u마다 u를 포함하는 삼각형의 갯수 t(u) 구하기 (Spark)
+  - [x] Task 4: 각 노드 u마다 군집계수 cc(u) 구하기 (Spark)
 
 <hr />
 
