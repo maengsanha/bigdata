@@ -19,7 +19,7 @@ object Task3 {
 
     // make degree RDDs.
     val degrees = edges.flatMap( edge => List( (edge._1, 1), (edge._2, 1) ) )
-                       .reduceByKey(_ + _)
+      .reduceByKey(_ + _)
 
     // sort edges by degree and value.
     val orderedEdges = edges.join(degrees)                                     // (u, (v, d(u) ) )
@@ -31,16 +31,16 @@ object Task3 {
 
     // make ordered wedge RDDs.
     val orderedWedges = orderedEdges.join(orderedEdges)
-                             .filter{wedgeList =>
-                               wedgeList._2._1._2 < wedgeList._2._2._2 || (wedgeList._2._1._2 == wedgeList._2._2._2 && wedgeList._2._1._1 < wedgeList._2._2._1) }
-                             .map(wedge => ( (wedge._2._1._1, wedge._2._2._1), wedge._1._1) )
+                                    .filter{wedgeList =>
+                                      wedgeList._2._1._2 < wedgeList._2._2._2 || (wedgeList._2._1._2 == wedgeList._2._2._2 && wedgeList._2._1._1 < wedgeList._2._2._1) }
+                                    .map(wedge => ( (wedge._2._1._1, wedge._2._2._1), wedge._1._1) )
 
     // match triangles by joining wedges and edges and save as text file.
     orderedWedges.join(copiedEdges)                                                                             // ( (u, v), (w, -1) )
-                 .flatMap(triangle => List( (triangle._1._1, 1), (triangle._1._2, 1), (triangle._2._1, 1) ))    // [ (u, 1), (v, 1), (w, 1) ]
-                 .reduceByKey(_ + _)
-                 .map(data => data._1 + "\t" + data._2)
-                 .saveAsTextFile( args(1) )
+                .flatMap(triangle => List( (triangle._1._1, 1), (triangle._1._2, 1), (triangle._2._1, 1) ))    // [ (u, 1), (v, 1), (w, 1) ]
+                .reduceByKey(_ + _)
+                .map(data => data._1 + "\t" + data._2)
+                .saveAsTextFile( args(1) )
 
   } // end main.
 

@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/joshua/workspace/bigdata/final_project/task4/target/scala-2.11/task4_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bigdata[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/joshua/workspace/bigdata/final_project/task4/target/scala-2.11/classes/bigdata[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bigdata/Task4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/joshua/workspace/bigdata/final_project/task4/target/scala-2.11/classes/bigdata/Task4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bigdata/Task4$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/joshua/workspace/bigdata/final_project/task4/target/scala-2.11/classes/bigdata/Task4$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bigdata/Task4$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/joshua/workspace/bigdata/final_project/task4/target/scala-2.11/classes/bigdata/Task4$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bigdata/Task4$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/joshua/workspace/bigdata/final_project/task4/target/scala-2.11/classes/bigdata/Task4$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bigdata/Task4$$anonfun$3$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/joshua/workspace/bigdata/final_project/task4/target/scala-2.11/classes/bigdata/Task4$$anonfun$3$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bigdata/Task4$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/joshua/workspace/bigdata/final_project/task4/target/scala-2.11/classes/bigdata/Task4$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bigdata/Task4$$anonfun$1$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/joshua/workspace/bigdata/final_project/task4/target/scala-2.11/classes/bigdata/Task4$$anonfun$1$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
