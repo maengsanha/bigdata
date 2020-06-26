@@ -10,13 +10,13 @@ object Task4 {
     // make degree data to RDDs.
     val degrees = sc.textFile( args(0) )
       .map { line =>
-        val degreeData = line.split(" ").map( data => Integer.parseInt(data) )
+        val degreeData = line.split("\\W+").map( data => Integer.parseInt(data) )
         ( degreeData(0), degreeData(1) ) }
 
     // make triangle number data to RDDs.
     val numTriangles = sc.textFile( args(1) )
       .map { line =>
-        val triangleData = line.split(" ").map( data => Integer.parseInt(data) )
+        val triangleData = line.split("\\W+").map( data => Integer.parseInt(data) )
         ( triangleData(0), triangleData(1) ) }
 
     // get clustering coefficient and save as text file.

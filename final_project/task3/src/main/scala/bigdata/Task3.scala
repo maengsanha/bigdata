@@ -11,7 +11,7 @@ object Task3 {
     val edges = sc.textFile( args(0) )
                   .repartition(120)
                   .map { line =>
-                    val edge = line.split(" ").map(x => Integer.parseInt(x) )
+                    val edge = line.split("\\W+").map(x => Integer.parseInt(x) )
                     ( edge(0), edge(1) ) }
 
     // indicate edge

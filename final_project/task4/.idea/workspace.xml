@@ -2,88 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f894cfc0-f81a-496f-b051-78af7ab893b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/modules/task3-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/modules/task3-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/modules/task3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/modules/task3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$1a2d6f1126d35f42df34$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$1a2d6f1126d35f42df34.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$1a2d6f1126d35f42df34.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$273f8fff1db658615b66$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$273f8fff1db658615b66.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$273f8fff1db658615b66.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$82a32ddfe8b2072e45b0$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$82a32ddfe8b2072e45b0.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$82a32ddfe8b2072e45b0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$9a798619ad97084cf439$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$9a798619ad97084cf439.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$9a798619ad97084cf439.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$d16cfcfb44ace5a84cb5$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$d16cfcfb44ace5a84cb5.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$d16cfcfb44ace5a84cb5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$0d9ae55dc76e5070303b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$0d9ae55dc76e5070303b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/project/target/config-classes/$0d9ae55dc76e5070303b.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../task3/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../task3/src/main/scala/bigdata/Task3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/src/main/scala/bigdata/Task3.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/test/scala/bigdata/TestTask3.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/target/streams/_global/_global/checkBuildSources/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/task4-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/task4-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/task4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/task4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1150920a2ed816462096$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1150920a2ed816462096.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1150920a2ed816462096.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1ce8b983958881059908$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1ce8b983958881059908.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1ce8b983958881059908.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$64cc3993273f34460bac$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$64cc3993273f34460bac.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$64cc3993273f34460bac.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b8c65672bfe3c7e7fb4d$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b8c65672bfe3c7e7fb4d.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b8c65672bfe3c7e7fb4d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec229c5ce3d25ef5b200$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec229c5ce3d25ef5b200.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec229c5ce3d25ef5b200.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/scala-2.11/classes/bigdata/Task3$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/target/scala-2.11/classes/bigdata/Task3$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/scala-2.11/task3_2.11-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/target/scala-2.11/task3_2.11-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.11.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.11.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/bigdata/Task4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/bigdata/Task4.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/update/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/update/update_cache_2.11/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/task4_2.11-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/task4_2.11-0.1.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
