@@ -1,6 +1,4 @@
-### AWS Cloud9 환경에서 Docker를 이용한 Amazon Document DB 활용
-
-소프트웨어학부 맹산하
+### AWS Cloud9 환경에서 Docker를 이용한 Amazon DocumentDB 활용
 
 
 
@@ -84,7 +82,7 @@
    $ sudo apt-get update
    $ sudo apt-get install -y mongodb-org-shell
    $ wget https://s3.amazonaws.com/rds-downloads/rds-combined-ca-bundle.pem
-   $ mongo --ssl --host endpoint --sslCAFile rds-combined-ca-bundle.pem --username yourMasterUsername--password yourMasterPassword
+   $ mongo --ssl --host endpoint --sslCAFile rds-combined-ca-bundle.pem --username yourMasterUsername
    ```
 
    <img src="https://user-images.githubusercontent.com/29545214/85934629-8afab680-b920-11ea-934c-3ccf5e90ca14.png">
@@ -98,7 +96,7 @@
    <hr>
 
    
-
+   
 2. AWS Cloud9 환경에서 Docker를 활용하여 DocumentDB에 접속
 
    
@@ -111,12 +109,12 @@
 
    
 
-   포트가 열렸으니, Cloud9에서 Docker 컨테이너를 띄우고 `1.3`에서와 같이 mongo shell을 이용해 DocumentDB에 접속합니다.
+   포트가 열렸으니, Cloud9에서 Docker 컨테이너를 실행하고 `1.3`에서와 같이 mongo shell을 이용해 DocumentDB에 접속합니다.
 
    ```bash
    $ docker exec -it mongodb bash
    $ wget https://s3.amazonaws.com/rds-downloads/rds-combined-ca-bundle.pem
-   $ mongo --ssl --host DocumentDB_cluster_DNS:27017 --sslCAFile rds-combined-ca-bundle.pem --username user_name
+   $ mongo --ssl --host endpoint --sslCAFile rds-combined-ca-bundle.pem --username yourMasterUsername
    ```
 
    
@@ -133,9 +131,37 @@
 
    
 
-4. MongoDB와 Amazon DocumentDB 각각의 장/단점
+4. Docker를 활용한 MongoDB 운용과 Amazon DocumentDB를 활용한 운용 각각의 장/단점
 
-   1
+   4.1. Docker를 활용한 MongoDB 운용
+
+    - 장점
+
+      플랫폼(AWS, Google Cloud Platform, Microsoft Azure 등)에 구애받지 않고 호스팅 가능하다.
+
+      버전 선택이 자유롭다.
+
+    - 단점
+
+      모니터링 등의 추가적인 기능을 사용하려면 별도의 설정이 필요하다.
+
+      
+
+   4.2. Amazon DocumentDB
+
+   - 장점
+
+     클러스터 생성이 매우 간단하다.
+
+     완전 관리형이기 때문에 DB 유지/보수 관리면에서 유리하다.
+
+     기존 AWS 제품들과 호환이 잘 된다.
+
+   - 단점
+
+     AWS라는 하나의 플랫폼에 국한되게 된다. 멀티 클라우드 접근 방식을 사용하는 어플리케이션이 많은 요즘, vendor 의존성이 높은 것은 단점이 될 수 있다.
+
+     또한 DocumentDB는 MongoDB와의 호환성을 강조하지만, 사실은 Aurora PostgreSQL 엔진을 사용하면서 일부 MongoDB API를 모방하는 형태를 취하는데, 특히 MongoDB 3.6 버전의 API를 사용하기 때문에 MongoDB 4.0에서 릴리즈된 여러 기능들(oplog 등)을 사용할 수 없다. BSON 표준의 일부만 지원하는 것 또한 단점이라 할 수 있다.
 
    
 
