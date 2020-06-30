@@ -96,7 +96,6 @@
    <hr>
 
    
-   
 2. AWS Cloud9 환경에서 Docker를 활용하여 DocumentDB에 접속
 
    
@@ -122,6 +121,8 @@
    Cloud9에서 Docker를 이용해 DocumentDB에 접속한 모습
 
    <img src="https://user-images.githubusercontent.com/29545214/85953293-55021480-b9aa-11ea-8081-b2ade5cc3c04.png">
+
+   <hr>
 
    
 
@@ -263,6 +264,8 @@
 
        <img src="https://user-images.githubusercontent.com/29545214/86069242-499b1000-bab4-11ea-9249-6ed6b0ae55f0.png">
 
+   <hr>
+
    
 
 4. Docker를 활용한 MongoDB 운용과 Amazon DocumentDB를 활용한 운용 각각의 장/단점
@@ -305,6 +308,8 @@
      
      하지만 제품 선택 시 DocumentDB에서는 지원하지 않는 MongoDB의 기능을 사용해야할 경우가 있는지, vendor 의존성이 과하지는 않은지 신중하게 판단해야할 것 같습니다.
 
+   <hr>
+
    
 
 5. DocumentDB 클러스터 삭제
@@ -318,6 +323,8 @@
    5.2. 클러스터를 삭제합니다.
 
    ​	<img src="https://user-images.githubusercontent.com/29545214/86069687-a0edb000-bab5-11ea-968b-179936f897f7.png">
+
+   <hr>
 
    
 

@@ -42,11 +42,11 @@
 
 ### Part 3: Container
 
-- [ ] Final Project: AWS Cloud9 환경에서 Docker를 이용한 Amazon Document DB 활용
+- [x] Final Project: AWS Cloud9 환경에서 Docker를 이용한 Amazon Document DB 활용
   - [x] Task1: AWS DocumentDB를 이용한 MongoDB 환경 구축
   - [x] Task2: AWS Cloud9 환경에서 Docker를 활용하여 Task1에서 만든 DocumentDB에 접속
-  - [ ] Task3: MongoDB 실습 환경 시나리오 생성
-  - [ ] Task4: Docker를 활용한 MongoDB 사용과 DocumentDB를 활용한 실습 각각의 장단점 서술
-  - [ ] Task5: DocumentDB 클러스터 삭제
-  - [ ] Task6: 클라우드 서비스 크레딧 차감량 계산
+  - [x] Task3: MongoDB 실습 환경 시나리오 생성
+  - [x] Task4: Docker를 활용한 MongoDB 사용과 DocumentDB를 활용한 실습 각각의 장단점 서술
+  - [x] Task5: DocumentDB 클러스터 삭제
+  - [x] Task6: 클라우드 서비스 크레딧 차감량 계산
 
