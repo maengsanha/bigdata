@@ -2,11 +2,7 @@
 
 ### Hot Topics in Big Data assignments and more
 
-[![GitHub license](https://img.shields.io/badge/license-GPL-blue)](https://github.com/joshua-dev/bigdata/blob/master/LICENSE)
-
 <br>
-
-## :white_check_mark: TODO
 
 ### Part 1: NLP
 
